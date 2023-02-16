@@ -39,6 +39,9 @@ html {
   .large, .medium {
     background-color: black;
   }
+    .medium {
+      height: 5px;
+    }
   .small-text {
     font-size: 0.85rem;
   }
@@ -60,3 +63,7 @@ html {
       font-weight:700;
       margin: -7px -2px;
     }
+    
+.right {
+  justify-content: flex-end;
+}
